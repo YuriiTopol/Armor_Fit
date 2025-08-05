@@ -814,16 +814,6 @@ input[type=number] {
   position: relative;
 }
 
-/*.calculate-table tbody tr:last-child td:first-child::after {*/
-/*  content: '';*/
-/*  position: absolute;*/
-/*  bottom: 0;*/
-/*  right: 0;*/
-/*  width: 70%;*/
-/*  height: 1px;*/
-/*  background-color: var(--color-light-gray);*/
-/*}*/
-
 .calculate-table th {
   padding-block: 20px;
   text-align: left;
