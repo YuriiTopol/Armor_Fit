@@ -439,7 +439,7 @@ input[type=number] {
   flex-direction: column;
   justify-content: end;
   min-height: calc(100vh - var(--header-height));
-  padding: 36px 70px;
+  padding: 90px 70px;
   color: var(--color-light);
   background-color: var(--color-dark);
 }
@@ -951,11 +951,19 @@ input[type=number] {
   .motivation-card-image {
     margin-block: -20px;
   }
+
+  .banner-title {
+  margin-bottom: 12vw;
+  }
 }
 
 @media (max-width: 1280px) {
   .training-types-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .banner-title {
+  margin-bottom: 25vw;
   }
 }
 
@@ -976,8 +984,19 @@ input[type=number] {
     flex-basis: 100%;
   }
 
+  .header-menu-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+  }
+
   .header-menu-link {
     height: 50px;
+  }
+
+  .banner-title {
+  margin-bottom: 25vw;
   }
 
   .banner {
@@ -1058,7 +1077,7 @@ input[type=number] {
   }
 
   .header {
-    padding-top: 10px;
+    padding-top: 13px;
   }
 
   .header-menu-list {
@@ -1066,7 +1085,7 @@ input[type=number] {
   }
 
   .header-menu-link {
-    height: 32px;
+    height: 35px;
   }
 
   .header-actions {
@@ -1077,8 +1096,12 @@ input[type=number] {
     margin-bottom: 5px;
   }
 
+  .banner-title {
+  margin-bottom: 25vw;
+}
+
   .banner-info::before {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .motivation-card,
